@@ -4,8 +4,7 @@ import plotly.express as px
 from fredapi import Fred
 
 
-fred_api_key = "78daaf6fb4fea5bd0891a729c318099d"
-fred = Fred(api_key=fred_api_key)
+fred = Fred(api_key= st.secrets["fred_api_key")
 
 st.set_page_config(page_title="Interest Rate Dashboard", layout="wide")
 st.title("📈 Interest Rate Dashboard")
