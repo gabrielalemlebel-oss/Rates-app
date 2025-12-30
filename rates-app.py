@@ -7,7 +7,7 @@ from fredapi import Fred
 fred = Fred(api_key= st.secrets["fred_api_key"])
 
 st.set_page_config(page_title="Interest Rate Dashboard", layout="wide")
-st.title("📈 Interest Rate Dashboard")
+st.title(" Interest Rate Dashboard")
 
 
 # =========================
@@ -116,7 +116,6 @@ fig_div = px.line(
 # DASHBOARD LAYOUT
 # =========================
 
-st.header("📊 Rates Overview")
 
 col_left, col_right = st.columns(2)
 
